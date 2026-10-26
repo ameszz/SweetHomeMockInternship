@@ -43,12 +43,6 @@ public interface PieceOfFurniture {
   public String getInformation();
 
   /**
-   * Returns the volume associated to this piece, or <code>null</code>.
-   * @since 4.2
-   */
-  public abstract float getVolume();
-
-  /**
    * Returns the depth of this piece of furniture.
    */
   public abstract float getDepth();
